@@ -1,0 +1,6 @@
+### Format1  ###
+# node_modules/
+# node/
+
+node_modules
+assets/fonts
