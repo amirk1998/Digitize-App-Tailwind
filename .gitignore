@@ -1,6 +1,9 @@
 ### Format1  ###
 # node_modules/
 # node/
+#Folder1/Folder2/Folder3
 
 node_modules
 assets/fonts
+assets/Text
+.vscode
