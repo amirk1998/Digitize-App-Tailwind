@@ -51,52 +51,105 @@
       <!-- Sidebar -->
       <div class="hidden md:block col-span-4 lg:col-span-3 row-span-2">
         <div class="bg-white p-5 rounded-xl">
-          <div class="text-orange-400 font-bold text-xl mb-5">دسته بندی</div>
-          <ul class="mb-7">
-            <li class="mb-2">
-              <a href="" class="flex items-center text-slate-800 py-2 hover:bg-gray-50 cursor-pointer rounded-md">
-                <span class="relative w-5 h-5 rounded-full bg-gray-100">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-0 right-1">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-                  </svg>
-                </span>
-                <span class="mr-2 pr-1">تلفن همراه </span>
-              </a>
-            </li>
-            <li class="mb-2">
-              <a href="" class="flex items-center text-slate-800 py-2 hover:bg-gray-50 cursor-pointer rounded-md">
-                <span class="relative w-5 h-5 rounded-full bg-gray-100">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-0 right-1">
+          <!-- Categories -->
+          <div class="mb-7">
+            <div class="text-orange-400 font-bold text-xl mb-5">دسته بندی</div>
+            <ul class="">
+              <li class="mb-2">
+                <a href="" class="flex items-center text-slate-800 py-2 hover:bg-gray-50 cursor-pointer rounded-md">
+                  <span class="relative w-5 h-5 rounded-full bg-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-0 right-1">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                    </svg>
+                  </span>
+                  <span class="mr-2 pr-1">تلفن همراه </span>
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="" class="flex items-center text-slate-800 py-2 hover:bg-gray-50 cursor-pointer rounded-md">
+                  <span class="relative w-5 h-5 rounded-full bg-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-0 right-1">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                      />
+                    </svg>
+                  </span>
+                  <span class="mr-2 pr-1">لپ تاپ</span>
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="" class="flex items-center text-slate-800 py-2 hover:bg-gray-50 cursor-pointer rounded-md">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z" opacity=".1" />
+          <path d="M20 12c0-2.54-1.19-4.81-3.04-6.27L16 0H8l-.95 5.73C5.19 7.19 4 9.45 4 12s1.19 4.81 3.05 6.27L8 24h8l.96-5.73A7.976 7.976 0 0 0 20 12zM6 12c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z" />
+        </svg> -->
+                  <span class="relative w-5 h-5 rounded-full bg-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 absolute top-0 right-1" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        d="M16.497 5.03c0 .048-.001.096-.004.143A3.001 3.001 0 0 1 18.5 8.005v1h1v4h-1v3a3 3 0 0 1-2.005 2.83a3 3 0 0 1-2.995 3.17h-4a3 3 0 0 1-2.995-3.17a3.001 3.001 0 0 1-2.005-2.83v-8a3 3 0 0 1 2.003-2.83a3 3 0 0 1 3.01-3.18l4 .02a3 3 0 0 1 2.984 3.015Zm-8-.025h6a1 1 0 0 0-.995-.99l-4-.02a1 1 0 0 0-1.004.995v.015Zm7.208 2.021l-4.22-.021H7.5a1 1 0 0 0-1 1v8a1 1 0 0 0 .999 1H15.5a1 1 0 0 0 .999-1v-8a1 1 0 0 0-.795-.979ZM8.5 19.005a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1h-6Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                  <span class="mr-2 pr-1"> ساعت هوشمند </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Desktop Filters -->
+          <div class="">
+            <div class="text-orange-400 font-bold text-xl mb-5">فیلتر</div>
+            <!-- ACC No.1 -->
+            <div x-data="{ isOpenBrand : true }" class="">
+              <!-- Acc Headers No.1 -->
+              <div @click=" isOpenBrand = ! isOpenBrand" class="flex items-center justify-between w-full p-2 hover:bg-gray-50 cursor-pointer rounded-full">
+                <div class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                      d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z"
                     />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
                   </svg>
-                </span>
-                <span class="mr-2 pr-1">لپ تاپ</span>
-              </a>
-            </li>
-            <li class="mb-2">
-              <a href="" class="flex items-center text-slate-800 py-2 hover:bg-gray-50 cursor-pointer rounded-md">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                  <path fill="none" d="M0 0h24v24H0z" opacity=".1" />
-                  <path d="M20 12c0-2.54-1.19-4.81-3.04-6.27L16 0H8l-.95 5.73C5.19 7.19 4 9.45 4 12s1.19 4.81 3.05 6.27L8 24h8l.96-5.73A7.976 7.976 0 0 0 20 12zM6 12c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z" />
-                </svg> -->
-                <span class="relative w-5 h-5 rounded-full bg-gray-100">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 absolute top-0 right-1" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                    <path
-                      fill="currentColor"
-                      fill-rule="evenodd"
-                      d="M16.497 5.03c0 .048-.001.096-.004.143A3.001 3.001 0 0 1 18.5 8.005v1h1v4h-1v3a3 3 0 0 1-2.005 2.83a3 3 0 0 1-2.995 3.17h-4a3 3 0 0 1-2.995-3.17a3.001 3.001 0 0 1-2.005-2.83v-8a3 3 0 0 1 2.003-2.83a3 3 0 0 1 3.01-3.18l4 .02a3 3 0 0 1 2.984 3.015Zm-8-.025h6a1 1 0 0 0-.995-.99l-4-.02a1 1 0 0 0-1.004.995v.015Zm7.208 2.021l-4.22-.021H7.5a1 1 0 0 0-1 1v8a1 1 0 0 0 .999 1H15.5a1 1 0 0 0 .999-1v-8a1 1 0 0 0-.795-.979ZM8.5 19.005a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1h-6Z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-                <span class="mr-2 pr-1"> ساعت هوشمند </span>
-              </a>
-            </li>
-          </ul>
+                  <span class="mr-2">برند محصول</span>
+                </div>
+                <svg :class="! isOpenBrand ? 'rotate-180' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </div>
+              <!-- Acc Content No.1 -->
+              <div x-show="isOpenBrand" class="px-2 flex flex-col gap-y-2">
+                <label for="apple" class="py-1 flex items-center cursor-pointer pr-2">
+                  <input type="checkbox" name="brand" id="apple" aria-label="apple" class="form-checkbox rounded" />
+                  <span class="mr-2">اپل</span>
+                </label>
+                <label for="xiaomi" class="py-1 flex items-center cursor-pointer pr-2">
+                  <input type="checkbox" name="brand" id="xiaomi" aria-label="xiaomi" class="form-checkbox rounded" />
+                  <span class="mr-2">شیائومی</span>
+                </label>
+              </div>
+            </div>
+            <!-- ACC No.2 -->
+            <div class="">
+              <!-- Acc Headers No.2 -->
+              <div class=""></div>
+              <!-- Acc Content No.2 -->
+              <div class=""></div>
+            </div>
+            <!-- ACC No.3 -->
+            <div class="">
+              <!-- Acc Headers No.3 -->
+              <div class=""></div>
+              <!-- Acc Content No.3 -->
+              <div class=""></div>
+            </div>
+            <!-- _______ -->
+          </div>
         </div>
       </div>
       <!-- Sort Section -->
