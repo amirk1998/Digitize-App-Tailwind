@@ -104,7 +104,7 @@
           <div class="">
             <div class="text-orange-400 font-bold text-xl mb-5">فیلتر</div>
             <!-- ACC No.1 -->
-            <div x-data="{ isOpenBrand : true }" class="">
+            <div x-data="{ isOpenBrand : true }" class="mb-4">
               <!-- Acc Headers No.1 -->
               <div @click=" isOpenBrand = ! isOpenBrand" class="flex items-center justify-between w-full p-2 hover:bg-gray-50 cursor-pointer rounded-full">
                 <div class="flex items-center">
@@ -118,29 +118,29 @@
                   </svg>
                   <span class="mr-2">برند محصول</span>
                 </div>
-                <svg :class="! isOpenBrand ? 'rotate-180' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <svg :class="! isOpenBrand ? 'rotate-180' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 transition-all duration-500">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
               </div>
               <!-- Acc Content No.1 -->
               <div x-show="isOpenBrand" class="px-2 flex flex-col gap-y-2">
                 <label for="apple" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="brand" id="apple" aria-label="apple" class="form-checkbox rounded" />
+                  <input type="checkbox" name="brand" id="apple" aria-label="apple" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">اپل</span>
                 </label>
                 <label for="xiaomi" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="brand" id="xiaomi" aria-label="xiaomi" class="form-checkbox rounded" />
+                  <input type="checkbox" name="brand" id="xiaomi" aria-label="xiaomi" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">شیائومی</span>
                 </label>
                 <label for="samsung" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="brand" id="samsung" aria-label="samsung" class="form-checkbox rounded" />
+                  <input type="checkbox" name="brand" id="samsung" aria-label="samsung" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">سامسونگ</span>
                 </label>
               </div>
             </div>
             <!-- ________ -->
             <!-- ACC No.2 -->
-            <div x-data="{ isOpenColor : true }" class="">
+            <div x-data="{ isOpenColor : true }" class="mb-4">
               <!-- Acc Headers No.2 -->
               <div @click=" isOpenColor = ! isOpenColor" class="flex items-center justify-between w-full p-2 hover:bg-gray-50 cursor-pointer rounded-full">
                 <div class="flex items-center">
@@ -154,22 +154,22 @@
 
                   <span class="mr-2">رنگ محصول</span>
                 </div>
-                <svg :class="! isOpenColor ? 'rotate-180' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <svg :class="! isOpenColor ? 'rotate-180' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 transition-all duration-500">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
               </div>
               <!-- Acc Content No.2 -->
               <div x-show="isOpenColor" class="px-2 flex flex-col gap-y-2">
                 <label for="blue" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="color" id="blue" aria-label="blue" class="form-checkbox rounded" />
+                  <input type="checkbox" name="color" id="blue" aria-label="blue" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">آبی</span>
                 </label>
                 <label for="red" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="color" id="red" aria-label="red" class="form-checkbox rounded" />
+                  <input type="checkbox" name="color" id="red" aria-label="red" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">قرمز</span>
                 </label>
                 <label for="green" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="color" id="green" aria-label="green" class="form-checkbox rounded" />
+                  <input type="checkbox" name="color" id="green" aria-label="green" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">سبز</span>
                 </label>
               </div>
@@ -190,22 +190,22 @@
 
                   <span class="mr-2"> محدوده قیمت</span>
                 </div>
-                <svg :class="! isOpenPrice ? 'rotate-180' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                <svg :class="! isOpenPrice ? 'rotate-180' : '' " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 transition-all duration-500">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                 </svg>
               </div>
               <!-- Acc Content No.3 -->
               <div x-show="isOpenPrice" class="px-2 flex flex-col gap-y-2">
                 <label for="100K" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="price" id="100K" aria-label="100K" class="form-checkbox rounded" />
+                  <input type="checkbox" name="price" id="100K" aria-label="100K" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">از 100 هزارتومان تا 500 هزار تومان</span>
                 </label>
                 <label for="500K" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="price" id="500K" aria-label="500K" class="form-checkbox rounded" />
+                  <input type="checkbox" name="price" id="500K" aria-label="500K" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">از 500 هزارتومان تا 1 میلیون تومان</span>
                 </label>
                 <label for="1000K" class="py-1 flex items-center cursor-pointer pr-2">
-                  <input type="checkbox" name="price" id="1000K" aria-label="1000K" class="form-checkbox rounded" />
+                  <input type="checkbox" name="price" id="1000K" aria-label="1000K" class="form-checkbox rounded text-orange-500 focus:ring-orange-500" />
                   <span class="mr-2">از 1 میلیون تومان به بالا</span>
                 </label>
               </div>
@@ -250,7 +250,7 @@
         { id: 3 , title:'ساعت هوشمند اپل سری 8' , price : '18,150,000 تومان' },
         { id: 4 , title:'ساعت هوشمند اپل سری 7.5' , price : '20,150,000 تومان' },
         { id: 5 , title:'ساعت هوشمند اپل سری 7.1' , price : '31,150,000 تومان' },
-        { id: 6 , title:'ساعت هوشمند اپل سری 7.3' , price : ',150,000 تومان' },
+        { id: 6 , title:'ساعت هوشمند اپل سری 7.3' , price : '15,000,000 تومان' },
     ]}"
           class="grid gap-x-2 gap-y-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 px-2 md:p-0 sm:gap-x-4 md:gap-x-6 md:gap-y-10"
         >
